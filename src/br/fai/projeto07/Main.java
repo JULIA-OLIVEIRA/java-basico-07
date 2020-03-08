@@ -1,7 +1,5 @@
 package br.fai.projeto07;
 
-import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -10,21 +8,18 @@ public class Main {
 		app.start();
 
 	}
-	
-	private void start() {
 		
-		System.out.println("digite um valor: ");
+		public static int soma (int soma1) {
 		
-		Scanner scanner = new Scanner(System.in);
-
-		int valor1 = scanner.nextInt();
-		int valor2 = scanner.nextInt();
+		int valor1 = 5;
+		int valor2 = 5;
 		
-		int soma = valor1 + valor2;
+		int soma1 = valor1 + valor2;
 		
-		System.out.println("valor da soma: " + soma);
+		}
+		
 		
 	}
 	
 
-}
+
